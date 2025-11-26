@@ -73,6 +73,7 @@ def spawn_multi_asset(
 
     # spawn everything first in a "Dataset" prim
     proto_prim_paths = list()
+    # import ipdb; ipdb.set_trace()
     for index, asset_cfg in enumerate(cfg.assets_cfg):
         # append semantic tags if specified
         if cfg.semantic_tags is not None:

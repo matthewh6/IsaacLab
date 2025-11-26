@@ -1,0 +1,13 @@
+# Train RL with rsl_rl
+
+python3 scripts/reinforcement_learning/rsl_rl/train.py \
+    --task Isaac-Dexsuite-Kuka-Allegro-Lift-v0 \
+    --headless \
+    --video
+
+# Play the trained policy
+python3 scripts/reinforcement_learning/rsl_rl/play.py \
+    --task Isaac-Dexsuite-Kuka-Allegro-Lift-v0 \
+    --num_envs 8  \
+    --video \
+    --headless
